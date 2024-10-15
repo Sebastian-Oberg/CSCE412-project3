@@ -1,0 +1,26 @@
+# Ignore Doxygen generated documentation
+docs/
+
+# Ignore build files
+build/
+*.o
+*.out
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files created by IDEs and editors
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore CMake files (if you're using CMake)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Ignore other common IDE-specific files
+.vscode/
+.idea/
+
